@@ -1,0 +1,48 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+#capa0 {
+    background: url(banner1.jpg) no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 3rem;
+}
+#sector0 {
+    padding: 3rem;
+    backdrop-filter: blur(3px) brightness(120%) ;
+}
+#capa1 {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    height: 100vh;
+    background: url(banner2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card {
+    width: 13rem;
+    position: relative;
+    cursor: pointer;
+    transform: scale(0.9);
+
+
+}
+
+.card:hover { 
+    transform: scale(1.1);
+
+    -webkit-box-shadow: 3px 3px 5px 2px #9E9E9E;
+    box-shadow: 3px 3px 5px 2px #9E9E9E;
+
+-webkit-transition: all 500ms ease-in-out;
+-moz-transition: all 500ms ease-in-out;
+-ms-transition: all 500ms ease-in-out;
+-o-transition: all 500ms ease-in-out;
+transition: all 500ms ease-in-out;
+}
+
+.card-img {
+    height: 10vw;
+    
+}
