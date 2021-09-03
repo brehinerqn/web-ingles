@@ -21,10 +21,11 @@
 }
 
 .card {
-    width: 13rem;
+    width: 18rem;
     position: relative;
     cursor: pointer;
     transform: scale(0.9);
+    
 
 
 }
@@ -43,6 +44,100 @@ transition: all 500ms ease-in-out;
 }
 
 .card-img {
-    height: 10vw;
+    height: 15vw;
     
 }
+
+#capa1 .container{
+    width: fit-content;
+    padding: 1rem;
+}
+
+#capa2 {
+    background: url(podible5.jpg) no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 2rem ;
+}
+
+#capa2 .container{
+    width: fit-content;
+    padding: 1rem;
+
+
+}
+#capa3{
+    background: url(posible4.jpg) no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 2rem ;
+
+}
+
+#capa4{
+    background: url(esta1.jpeg) no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 2rem ;
+
+}
+
+a.circulo:hover {
+    color: white;
+    transform: scale(1.1);
+    filter: brightness(110%);
+}
+
+.circulo{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: all 300ms ease-out;
+-moz-transition: all 300ms ease-out;
+-ms-transition: all 300ms ease-out;
+-o-transition: all 300ms ease-out;
+transition: all 300ms ease-out;
+}
+
+
+.facebook{
+    background: #3b5998;
+}
+.twitter{
+    background: #55acee;
+}
+.whatsapp{
+    background: #00bb2d;
+    }
+.instagram {
+     background: #125688 ;
+}
+.youtube {
+    background: #bb0000;
+}
+
+.redes{
+    
+    width: fit-content;
+}
+
+form{
+    width: 32rem;
+    margin-top: 1rem;
+}
+
+#Director{
+    padding: 3rem;
+    backdrop-filter: blur(2px) brightness(80%) ;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 4rem;
