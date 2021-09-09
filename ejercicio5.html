@@ -16,28 +16,28 @@
     <link rel="icon" href="logo1.jpg" type="jpg " sizes="16x16">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+<body data-bs-spy="scroll" data-bs-target="#navegacion" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark" id="navegacion">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">AGOSA</a>
+            <a class="navbar-brand" href="#capa0">AGOSA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"> Historia </a>
+                        <a class="nav-link " aria-current="page" href="#capa1"> Clases</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Videos</a>
+                        <a class="nav-link" href="#capa2">Videos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">inscribete</a>
+                        <a class="nav-link" href="#capa3" id="register">inscribete</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contactanos </a>
+                        <a class="nav-link" href="#capa4">Contactanos </a>
                     </li>
                 </ul>
 
@@ -45,19 +45,22 @@
         </div>
     </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-dark " id="navegacion">
+    <nav class="navbar navbar-expand-lg navbar-dark  barra-progreso" id="navegacion">
         <ul class="navbar-nav">
             <li nav-item>
-                <a class="nav-link" href="ejemplo"></a>
+                <a class="nav-link progreso" href="capa0"></a>
             </li>
             <li nav-item>
-                <a class="nav-link" href="ejemplo"></a>
+                <a class="nav-link progreso" href="capa1"></a>
             </li>
             <li nav-item>
-                <a class="nav-link" href="ejemplo"></a>
+                <a class="nav-link progreso" href="capa2"></a>
             </li>
             <li nav-item>
-                <a class="nav-link" href="ejemplo"></a>
+                <a class="nav-link progreso" href="capa3"></a>
+            </li>
+            <li nav-item>
+                <a class="nav-link progreso" href="capa4"></a>
             </li>
         </ul>
     </nav>
@@ -65,14 +68,14 @@
     <!--capa0-->
 
     <div class="container-fluid" id="capa0">
-        <div class="container text-center" id="sector0">
+        <div class="container text-center efecto e-arriba" id="sector0">
             <h1>
-                <span class="text-white text-uppercase">
+                <span class="text-white text-uppercase efecto e-derecha" id="title1">
                     fundacion artistica "a golpe de salsa" Agosa
                 </span>
             </h1>
             <h3>
-                <span class="text-white font-weight-light">
+                <span class="text-white font-weight-light efecto e-izquierda" id="title2">
                     Los Negros de Sangre Azul
                 </span>
             </h3>
@@ -93,7 +96,10 @@
 
             <!--targeta1-->
             <div class="card d-inline-block">
-                <img src="imagen1.jpg" class="card-img" alt="">
+                <iframe width="400" height="300" src="https://www.youtube.com/embed/O22WFpXNbHQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
                 <div class="card-body">
                     <h5 class="card-title">
                         Aerorumbas
@@ -127,7 +133,7 @@
 
             <!--targeta3-->
             <div class="card d-inline-block">
-                <img src="imagen3.jpg" class="card-img" alt="">
+                <img src="imagen3.jpeg" class="card-img" alt="">
                 <div class="card-body">
                     <h5 class="card-title">
                         Danza Urbana
@@ -146,12 +152,13 @@
     </div>
 
     <!--capa2-->
+
     <div class="container-fluid" id="capa2">
         <div class="container " id="sector1">
             <div class="container text-center">
                 <h2>
                     <span class="text-white text-uppercase text-center">
-                        Nuestros bailarines
+                        Videos
                     </span>
                 </h2>
             </div>
@@ -162,12 +169,12 @@
                     <h5 class="card-title">
                         Carlos Garcia
                     </h5>
-                    <P class="card-text">Uno de los bailarines mas antiguos de nuestra familia y quien es uno de
-                        nuestros mejores instructores</P>
+                    <P class="card-text">Instructor y un bailarin de mucha experienciaque comparte siempre su
+                        conocimiento. </P>
                 </div>
                 <div class="card-footer">
                     <h7 class="card-subtitle text-muted">
-                        Bailarin e Intructor
+                        Diseñado para todas las edades
                     </h7>
                 </div>
             </div>
@@ -178,12 +185,12 @@
                     <h5 class="card-title">
                         Cuerpo de baile
                     </h5>
-                    <P class="card-text">Somos unos apasionados por la danza y nuestro amor re reflefa en nuestro
-                        desempeño </P>
+                    <P class="card-text">Un grupo con mucha experiencia el cual siempre esta preparado para dar todo de
+                        si por el arte </P>
                 </div>
                 <div class="card-footer">
                     <h7 class="card-subtitle text-muted">
-                        Somos negros de sangre azul
+                        Diseñado para todas las edades
                     </h7>
                 </div>
             </div>
@@ -195,53 +202,55 @@
                 <img src="posible1.jpg" class="card-img" alt="">
                 <div class="card-body">
                     <h5 class="card-title">
-                        Danza Urbana
+                        Una gran Familia
                     </h5>
-                    <P class="card-text">A pesar de las dificultades hemos sabido resurgir  gracias a que
-                        somos una gran familia </P>
+                    <P class="card-text">Al ser una gran familia nos da la posibilidad de aprender cada dia mas. </P>
                 </div>
                 <div class="card-footer">
                     <h7 class="card-subtitle text-muted">
-                        Dios siempre nos acompaña
+                        Diseñado para todas las edades
                     </h7>
                 </div>
             </div>
         </div>
     </div>
-    </div>
 
     <!--capa3-->
 
     <div class="container-fliud" id="capa3">
-        <div class="container">
+
+        <div class="slider-left">
+
             <div class="container text-center">
                 <h2>
-                    <span class="text-primary text-uppercase">
+                    <span class="text-white text-uppercase">
                         Inscribete
                     </span>
                 </h2>
             </div>
-            <form action="" class="mx-auto">
+            <form action="" class="text">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Nombre Completo">
+                    <input type="text-white" class="form-control" placeholder="Nombre Completo" id="formu">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Edad">
+                    <input type="text-white" class="form-control" placeholder="Edad" id="formu">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Numero de telefono">
+                    <input type="text-white" class="form-control" placeholder="Numero de telefono" id="formu">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Correo electronico">
+                    <input type="text-white" class="form-control" placeholder="Correo electronico" id="formu">
                 </div>
                 <div class="form-group">
-                    <textarea type="text" class="form-control"
-                        placeholder="Cuentanos ¿Por que quieres ingresar a nuestra Academia?" rows="4"></textarea>
+                    <textarea type="text-white" class="form-control"
+                        placeholder="Cuentanos ¿Por que quieres ingresar a nuestra Academia?" rows="4"
+                        id="formu"></textarea>
                 </div>
                 <div class="form-group">
-                    <button class="form-control btn-primary">Enviar</button>
+                    <button class="form-control btn-dark">Enviar</button>
                 </div>
             </form>
+
 
         </div>
     </div>
@@ -252,14 +261,14 @@
         <div class="container">
             <div class="container text-center">
                 <h2>
-                    <span class="text-danger text-uppercase">
-                        Contactanos
+                    <span class="text-white text-uppercase">
+                        Has parte de nuestra Familia
                     </span>
                 </h2>
             </div>
             <div class="container text-center text-white">
                 <h4>
-                    <span class="text-secondary">
+                    <span class="text-secondary" id="secundario">
                         Encuentranos en Nuestras Redes
                     </span>
                 </h4>
@@ -276,24 +285,26 @@
                 <a class="circulo whatsapp" href="https://api.whatsapp.com/send?phone=[57][317 8124510]" type="button"
                     role="button"> <i class="fab fa-whatsapp"></i> </a>
             </div>
-            <div class="container text-center" id="Director">
-            <h1>
-                <span class="text-white text-uppercase">
-                    Director Luis Miguel Nazarith
-                </span>
-            </h1>
-            <h3>
-                <span class="text-white font-weight-light">
-                    Los Negros de Sangre Azul
-                </span>
-            </h3>
+            <div class="container text-center" id="Luis">
+                <h1>
+                    <span class="text-white text-uppercase">
+                        Director Luis Miguel Nazarith
+                    </span>
+                </h1>
+                <h3>
+                    <span class="text-white font-weight-light">
+                        El Negro de Sangre Azul
+                    </span>
+                </h3>
+            </div>
         </div>
-        </div>
-
     </div>
-    
 
+    <!--script-->
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2e5b11686c.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
