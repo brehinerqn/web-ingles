@@ -22,7 +22,7 @@ html{
     
 }
 #capa1 {
-    padding-top: 10rem;
+    padding-top: 5rem;
     padding-bottom: 2rem;
     height: 100vh;
     background: url(banner2.jpg) no-repeat center center fixed;
@@ -66,7 +66,7 @@ transition: all 500ms ease-in-out;
     background: url(podible5.jpg) no-repeat center center fixed;
     height: 100vh;
     background-size: cover;
-    padding-top: 10rem;
+    padding-top: 5rem;
     padding-bottom: 2rem ;
 }
 
@@ -257,19 +257,10 @@ right: -100%;
 .e-izquierda{
 left: -100%;
 }
-#capa0:hover #title1{
-    filter: opacity(100%);
-    right: 0;
 
-}
-#capa0:hover #title2{
-    filter: opacity(100%);
-    left: 0;
-}
-
-.e-arriba{
+.e-abajo{
     bottom:-100% ;
 }
-#capa0:hover #sector0{
-    filter: opacity(100%);
-    bottom: 0;}
+.e-arriba{
+    top:-100% ;
+}
