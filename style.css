@@ -24,7 +24,7 @@ html{
     padding-top: 5rem;
     padding-bottom: 2rem;
     height: 100vh;
-    background: url(/img/fondo\ 21.png) no-repeat center center fixed;
+    background: url(/img/fondo\ 21.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .card {
